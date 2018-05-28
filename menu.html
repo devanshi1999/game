@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tank Wars Menu</title>
+		<link href="style2.css" rel="stylesheet" />
+</head>
+<body>
+	<button id='start'><a href='index2.html'> Start Game</a></button>
+	<button id='instructions'>Instructions</button>
+	<div id='scores'></div>
+	<div id='box'></div>
+	<script>
+	myBtn = document.getElementById('instructions');
+	myBtn.addEventListener('click', function() {
+        box = document.getElementById('box'); 
+        box.innerHTML = "There will be two tanks (black squares) ready for a war.<br> Use mouse pointer to adjust the angle of projection of the missile.<br> Each tank will be given a limited number of missiles.<br> 2 points will be awarded to the tank hitting the other tank.<br> Aim is to hit the opponent tank as many times as possible without getting obstructed by the green mountain inbetween.<br><br> GOOD LUCK!";
+       
+     if(box.style.visibility == 'visible') {
+            box.style.visibility = 'hidden'; 
+        }
+       else {
+      box.style.visibility = 'visible'; }
+	});
+	</script>
+	<script src="canvas1.js"></script>
+
+</body>
+</html>

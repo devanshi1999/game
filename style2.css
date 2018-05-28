@@ -1,0 +1,89 @@
+canvas {
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+    background-position: center;	
+    background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+html, body {
+	background-image: url("bg2.jpg");
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    background-size:100% 100%;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	visibility: hidden;
+	font-family: Tahoma;
+    text-align: center;
+    letter-spacing: 1px;
+    background: white;
+}
+div {
+	font-family: Tahoma;
+    text-align: left;
+    color: #444;
+    letter-spacing: 1px;
+    visibility: hidden;
+	width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 20px 20px 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+#start {
+	border: 1px solid #9361bf;
+    background: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+#instructions {
+	border: 1px solid #9361bf;
+    background: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    width: 120px;
+    float: right;
+    margin: 20px 0;
+    border-right: 0;
+    color: black;
+}
+#restart {
+    visibility: hidden;
+    border: 1px solid #9361bf;
+    background: rgba(0,0,255,0.5);
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    width: 120px;
+    float: center;
+    color: white;
+}
+#box {
+	visibility: hidden;
+}
