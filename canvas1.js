@@ -217,7 +217,7 @@ function hit() {
 
 function scoreDisplay() {
 	console.log(count2);
-	if(count1 == 10 && count2 == 10) {
+	if(count1 == 11 && count2 == 10) {
 	    	if(score1>score2) {
 	    		winner = 1;
 	    	}
